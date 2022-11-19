@@ -91,7 +91,7 @@ function Subtotal() {
         value={getbasketTotal(basket)}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"UGX: "}
+        prefix={"NGN: "}
       />
       <button type="button" onClick={handleOpen}>
         CHECKOUT

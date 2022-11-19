@@ -21,7 +21,7 @@ function Footer() {
         </div>
 
         <div className="sections">
-          <h6>ABOUT JUMIA UGANDA</h6>
+          <h6>ABOUT JUMIA NIGERIA</h6>
           <p>About us</p>
           <p>Jumia Careers</p>
           <p>IPR Protection Policy</p>

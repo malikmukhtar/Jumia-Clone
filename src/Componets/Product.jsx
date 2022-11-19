@@ -50,7 +50,7 @@ function Product({ id, title, image, price, rating }) {
         value={price}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"UGX: "}
+        prefix={"NGN: "}
       />
       <div className="button">
         <p className="click_button">ADD TO CART</p>

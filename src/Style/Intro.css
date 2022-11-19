@@ -90,11 +90,11 @@
 }
 @keyframes and {
   0% {
-    background: url("../images/jumia_images/Holiday-Savings-Slider-1.jpg")
+    background: url("../images/jumia_images/jumia-black-friday.png")
       no-repeat center center / cover;
   }
   30% {
-    background: url("../images/jumia_images/Holiday-Savings-Slider-4.jpg")
+    background: url("../images/jumia_images/jumia-save.jpg")
       no-repeat center center / cover;
   }
 
@@ -104,7 +104,7 @@
   }
 
   100% {
-    background: url("../images/jumia_images/Holiday-Savings-Slider-1.jpg")
+    background: url("../images/jumia_images/jumia-black-friday.png")
       no-repeat center center / cover;
   }
 }
@@ -157,11 +157,11 @@
   }
   @keyframes and {
     0% {
-      background: url("../images/jumia_images/Holiday-Savings-Slider-1.jpg")
+      background: url("../images/jumia_images/jumia-black-friday.png")
         no-repeat center center / contain;
     }
     30% {
-      background: url("../images/jumia_images/Holiday-Savings-Slider-4.jpg")
+      background: url("../images/jumia_images/jumia-save.jpg")
         no-repeat center center / contain;
     }
 
@@ -171,7 +171,7 @@
     }
 
     100% {
-      background: url("../images/jumia_images/Holiday-Savings-Slider-1.jpg")
+      background: url("../images/jumia_images/jumia-black-friday.png")
         no-repeat center center / contain;
     }
   }

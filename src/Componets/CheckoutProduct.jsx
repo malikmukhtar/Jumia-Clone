@@ -44,7 +44,7 @@ function CheckoutProduct({  id, title, image, price, rating }) {
         value={price}
         displayType={"text"}
         thousandSeparator={true}
-        prefix={"UGX: "}
+        prefix={"NGN: "}
       />
     </div>
   );
