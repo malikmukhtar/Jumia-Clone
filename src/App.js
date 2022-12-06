@@ -42,31 +42,31 @@ function App() {
         <Switch>
           <Route path="/computing">
             <Header />
-            <Categories section="computing" />
+            <Categories section="computing" categoryId='' />
             <Footer />
           </Route>
 
           <Route path="/sporting">
             <Header />
-            <Categories section="Sports" />
+            <Categories section="Sports" categoryId=''/>
             <Footer />
           </Route>
 
           <Route path="/electronics">
             <Header />
-            <Categories section="Electronics" />
+            <Categories section="Electronics" categoryId='638c529f62b5585bdd0e0f5d'/>
             <Footer />
           </Route>
 
           <Route path="/phoneTablets">
             <Header />
-            <Categories section="Phones and Tablets" />
+            <Categories section="Phones and Tablets" categoryId='638c528c62b5585bdd0e0f54'/>
             <Footer />
           </Route>
 
           <Route path="/supermarket">
             <Header />
-            <Categories section="Supermarket" />
+            <Categories section="Supermarket" categoryId='638c529462b5585bdd0e0f58'/>
             <Footer />
           </Route>
 

@@ -5,12 +5,11 @@ function Footer() {
   return (
     <div className="footer">
       <a
-        href="https://github.com/michaelkasingye"
+        href="/"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Developer | 
-        {/* MIchael Kasingye */}
+        Developer | Malik | Farouk | Tyler
       </a>
       <div className="footer_setions">
         <div className="sections">

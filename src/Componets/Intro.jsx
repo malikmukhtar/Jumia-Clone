@@ -31,18 +31,18 @@ function Intro() {
             <span>Electronics</span>
           </div>
         </Link>
-        <Link to="/sporting">
+        {/* <Link to="/sporting">
           <div className="category_items">
             <FitnessCenterOutlinedIcon />
             <span>Sporting Goods</span>
           </div>
-        </Link>
-        <Link to="/computing">
+        </Link> */}
+        {/* <Link to="/computing">
           <div className="category_items">
             <ComputerOutlinedIcon />
             <span>Computing</span>
           </div>
-        </Link>
+        </Link> */}
       </div>
 
       <div className="showcase">
