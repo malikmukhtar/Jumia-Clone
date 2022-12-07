@@ -4,9 +4,9 @@
 }
 .home_row {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  /* justify-content: center; */
 }
 .home_row > * {
   flex: 1;

@@ -9,7 +9,7 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Developer | Malik | Farouk | Tyler
+        Developers | Malik | Farouk | Tyler
       </a>
       <div className="footer_setions">
         <div className="sections">

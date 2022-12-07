@@ -44,7 +44,7 @@ function Home() {
             <Product
               id={item._id}
               key={item._id}
-              title={item.description}
+              title={item.name}
               price={item.price}
               rating={4}
               image={item.image}
@@ -60,7 +60,7 @@ function Home() {
             <Product
               id={item._id}
               key={item._id}
-              title={item.description}
+              title={item.name}
               price={item.price}
               rating={3}
               image={item.image}
@@ -76,7 +76,7 @@ function Home() {
             <Product
               id={item._id}
               key={item._id}
-              title={item.description}
+              title={item.name}
               price={item.price}
               rating={5}
               image={item.image}

@@ -5,3 +5,40 @@
   max-width: 1500px;
   margin: auto auto;
 }
+
+.container-paginate{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pagination {
+  /* background-color: red; */
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  cursor: pointer;
+}
+
+.pagination a {
+  padding: 1px;
+  margin: 1px;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  color: black;
+}
+
+.pagination__link {
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  color: #fff;
+  background: black;
+}
+
+.pagination__link--disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}
+

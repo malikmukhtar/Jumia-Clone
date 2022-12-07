@@ -9,6 +9,32 @@
   margin: auto auto;
 }
 
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  /*position the autocomplete items to be the same width as the container:*/
+  top: 10;
+  left: 0;
+  right: 20;
+  margin-left: 300px;
+}
+
+.suggestion{
+  cursor: pointer;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: white;
+  width: 120px;
+}
+
+.suggestion:hover{
+  background-color: grey;
+}
+
 .header_nav {
   display: flex;
   justify-content: space-evenly;

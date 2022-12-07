@@ -8,33 +8,37 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ReactPaginate from "react-paginate";
 
-function Categories(props) {
+function SearchItem(props) {
   const [products, setProducts] = useState(null);
   const [meta, setMeta] = useState(null);
+  const [word, setWord] = useState(window.location.pathname.split("/")[2]);
 
-  const fetchAllCategoryProducts = async (page) => {
+  const fetchAllSearchProducts = async (page) => {
+    // setWord(window.location.pathname.split("/")[2])
     const p = page || 1;
     const response = await axios.get(
-      `https://atlas-hack.herokuapp.com/product?&page=${p}&limit=10&categoryId=${props.categoryId}`
+      `https://atlas-hack.herokuapp.com/search?term=${
+        window.location.pathname.split("/")[2]
+      }&page=${p}&limit=10`
     );
+    console.log("malik man", response);
     setProducts(response?.data?.result);
     setMeta(response?.data?.paging);
   };
 
   useEffect(() => {
     try {
-      fetchAllCategoryProducts();
+      fetchAllSearchProducts();
     } catch (error) {
       console.log("Fetch All Category Product Error", error);
     }
-  }, [props.categoryId]);
+  }, [window.location.pathname.split("/")[2]]);
 
   const handlePagination = (page) => {
-    fetchAllCategoryProducts(page.selected + 1);
+    fetchAllSearchProducts(page.selected + 1);
   };
 
-
-
+  console.log('ahhhhhhh', word)
   return (
     <div className="home">
       <Intro />
@@ -87,4 +91,4 @@ function Categories(props) {
   );
 }
 
-export default Categories;
+export default SearchItem;

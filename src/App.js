@@ -11,6 +11,7 @@ import Categories from "./Componets/Categories";
 import { useStateValue } from "../src/ContextAPI/StateProvider";
 // import { auth } from "./FireBase/Firebase";
 import { Unsubscribe } from "@material-ui/icons";
+import SearchItem from "./Componets/SearchItem";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -67,6 +68,11 @@ function App() {
           <Route path="/supermarket">
             <Header />
             <Categories section="Supermarket" categoryId='638c529462b5585bdd0e0f58'/>
+            <Footer />
+          </Route>
+          <Route path="/search/:q">
+            <Header />
+            <SearchItem/>
             <Footer />
           </Route>
 
