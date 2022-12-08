@@ -4,13 +4,34 @@ import "../Style/footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <a
-        href="/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Developers | Malik | Farouk | Tyler
-      </a>
+      <div style={{ display: "flex" }}>
+        <a href="/" rel="noopener noreferrer">
+          Developers <a>|</a>
+        </a>{" "}
+        <a
+          href="https://github.com/malikmukhtar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Malik <a>|</a>
+        </a>{" "}
+        {" "}
+        <a
+          href="https://github.com/farukade"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Faruk <a>|</a>
+        </a>{" "}
+        {" "}
+        <a
+          href="https://github.com/tylerjusfly"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tyler
+        </a>
+      </div>
       <div className="footer_setions">
         <div className="sections">
           <h6>LET US HELP YOU</h6>
